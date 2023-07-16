@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    font-family:'Montserrat';
+}
+
+
+.conteiner{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.conteiner .navigation .nabar{
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid transparent;
+    align-items: center;
+    gap: 200px;
+}
+
+.conteiner .navigation .nabar .logo img{
+    width: 110px;
+    padding: 0 12px;
+
+}
+
+.conteiner .navigation .nabar .links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.conteiner .navigation .nabar .links_2 ul   {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.conteiner .navigation .navbar_2{
+    width: 100%;
+    height: 60px;
+    border: 1px solid transparent;
+    background-color: #B0BCC2;
+}
+
+
+.conteiner .navigation .navbar_2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 15px;
+    gap: 270px;
+}
+
+.conteiner .navigation .nabar .links ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.conteiner .navigation .nabar .links_2 ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.conteiner .navigation .nabar .links_2 ul li .sing_in{
+    font-size: 15px;
+    color: #838383;
+}
+
+
+.conteiner .navigation .nabar .links_3{
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    padding: 0 12px;
+}
+
+.conteiner .navigation .nabar .links_3 i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #000;
+    font-weight: 600;
+}
+
+.conteiner .navigation .navbar_2 ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 60px;
+
+}
+
+.conteiner .navigation .navbar_2 ul li .car{
+    width: 36px;
+    position: relative;
+    top: 2px;
+    left: -10px;
+}
+
+.conteiner .navigation .navbar_2 ul li .part{
+    width: 32px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+
+
+.conteiner .navigation .navbar_2 ul li .skidka{
+    width: 32px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+.conteiner .allWidh{
+    width: 70%;
+    height: auto;
+    border: 1px solid transparent;
+    margin: 0 auto;
+    /* padding: 0 10%; */
+}
+
+/* checkout */
+
+.conteiner .allWidh .checkout{
+    width: 100%;
+    height: 140px;
+    border: 1px solid transparent;
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner .allWidh .checkout img{
+    /* width: 300px; */
+    height: 139px;
+}
+
+.conteiner .allWidh .checkout h1{
+    /* width: 200px; */
+    height: 139px;
+    text-align: center;
+    line-height: 139px;
+    font-size: 48px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.conteiner .allWidh .your {
+    width: 100%;
+    height: 54px;
+    border-bottom: 2px solid #D0D7DB;
+    margin-top: 90px;
+    border-radius: 3px;
+}
+
+.conteiner .allWidh .your h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+/*  */
+
+/* controls */
+
+.conteiner .allWidh .controls{
+    width: 100%;
+    height: 580px;
+    border: 1px solid transparent;
+    margin-top: 90px;
+    display: flex;
+    position: relative;
+}
+
+/* left */
+
+.conteiner .allWidh .controls .left{
+    width: 70%;
+    height: 98%;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.conteiner .allWidh .controls .left p{
+    width: 111px;
+    height: 24px;
+    text-align: end;
+    border: 1px solid transparent;
+    font-size: 13px;
+    font-weight: 400;
+    color: #1E1E1E;
+    /* line-height: 24px; */
+}
+
+.conteiner .allWidh .controls .left .name{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+    border: 1px solid transparent;
+}
+
+.conteiner .allWidh .controls .left .name input{
+    width: 320px;
+    border-bottom: 2px solid #D0D7DB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.conteiner .allWidh .controls .left .street {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.conteiner .allWidh .controls .left .street .text span{
+    position: relative;
+    top: 10px;
+}
+ 
+.conteiner .allWidh .controls .left .street .input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.conteiner .allWidh .controls .left .street .input input{
+    border-bottom: 2px solid #D0D7DB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    top: 5px;
+}
+
+.conteiner .allWidh .controls .left .country{
+    width: 1005px;
+    height: 24px;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.conteiner .allWidh .controls .left .country .box{
+    display: flex;
+    gap: 30px;
+}
+
+.conteiner .allWidh .controls .left .country .box input{
+    width: 40px;
+    border-bottom: 2px solid #D0D7DB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.conteiner .allWidh .controls .left .country span{
+    position: relative;
+    top: 13px;
+    margin-left: 13px;
+    font-size: 10px;
+}
+
+.conteiner .allWidh .controls .left .country span input{
+    width: 370px;
+    border: none;
+    margin-left: 5px;
+}
+
+.conteiner .allWidh .controls .left .country .item input{
+    width: 148px;
+    border-bottom: 2px solid #D0D7DB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.conteiner .allWidh .controls .left .city{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.conteiner .allWidh .controls .left .city input{
+    width: 600px;
+    border-bottom: 2px solid #D0D7DB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.conteiner .allWidh .controls .left .cout{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.conteiner .allWidh .controls .left .cout input{
+    width: 600px;
+    border-bottom: 2px solid #D0D7DB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.conteiner .allWidh .controls .left .post{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.conteiner .allWidh .controls .left .post input{
+    width: 600px;
+    border-bottom: 2px solid #D0D7DB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.conteiner .allWidh .controls .left .phone{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.conteiner .allWidh .controls .left .phone input{
+    width: 600px;
+    border-bottom: 2px solid #D0D7DB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.conteiner .allWidh .controls .left h6{
+    color: #838383;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*  */
+
+/* right */
+
+.conteiner .allWidh .controls .right{
+    width: 28%;
+    height: 413px;
+    border: 1px solid transparent;
+    position: absolute;
+    right: 0;
+    background-color: #F9FBFB;
+}
+
+.conteiner .allWidh .controls .right .content{
+    width: 86.5%;
+    height: 88%;
+    border: 1px solid transparent;
+    margin: 30px 20px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.conteiner .allWidh .controls .right .content p{
+    /* text-align: end; */
+    border: 1px solid transparent;
+    font-size: 12px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.conteiner .allWidh .controls .right .content .product{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner .allWidh .controls .right .content .product h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.conteiner .allWidh .controls .right .content .price{
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.conteiner .allWidh .controls .right .content .price h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.conteiner .allWidh .controls .right .content .qua{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.conteiner .allWidh .controls .right .content .qua h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.conteiner .allWidh .controls .right .content .ship{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.conteiner .allWidh .controls .right .content .ship h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.conteiner .allWidh .controls .right .content .box{
+    width: 100%;
+    height: 2px;
+    border-bottom: 2px solid #D0D7DB;
+    margin-top: 100px;
+}
+
+.conteiner .allWidh .controls .right .content .total{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.conteiner .allWidh .controls .right .content .total h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+/*  */
+/*  */
+
+.conteiner .allWidh .payment{
+    width: 100%;
+    height: 237px;
+    border: 1px solid transparent;
+    margin-top: 29px;
+}
+
+.conteiner .allWidh .payment h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.conteiner .allWidh .payment .box{
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid #D0D7DB;
+}
+
+.conteiner .allWidh .payment .content{
+    width: 226px;
+    height: 118px;
+    border: 1px solid transparent;
+    margin-top: 57px;
+}
+
+.conteiner .allWidh .payment .content .paypal{
+    display: flex;
+    gap: 20px;
+}
+
+.conteiner .allWidh .payment .content p{
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 400;
+    color: #838383;
+}
+
+.conteiner .allWidh .payment .content .cridet{
+    display: flex;
+    gap: 20px;
+    margin-top: 26px;
+}
+
+.conteiner .allWidh .payment .content .pay{
+    display: flex;
+    gap: 20px;
+    margin-top: 26px;
+}
+
+.conteiner .allWidh .place{
+    width: 100%;
+    height: 60px;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.conteiner .allWidh .place p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #1E1E1E;
+    border: 1px solid #000;
+    padding: 18px 40%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 32px;
+}
+
+/*  */
+
+/* Footer */
+
+.conteiner footer {
+    width: 100%;
+    height: auto;
+    background-color: #262626;
+    padding: 70px 0;
+    margin-top: 100px;
+  }
+  
+  .conteiner footer .input {
+    text-align: center;
+  }
+  
+  .conteiner footer .input a {
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #b0bcc2;
+    padding: 14px 30px;
+    border-radius: 50px;
+    position: relative;
+    right: 70px;
+  }
+  
+  .conteiner footer .input a:hover{
+    background-color: dimgray;
+    color: #fff;
+    transition: .5s all;
+  }
+  
+  .conteiner footer .input input {
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  
+  .conteiner footer .footer_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    padding-top: 80px;
+  }
+  
+  .conteiner footer .footer_links ul h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff9f;
+  }
+  
+  .conteiner footer .footer_links ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.618);
+  }
+  
+  .conteiner footer .footer_links ul li a:hover {
+    color: orange;
+    transition: 0.5s all;
+  }
+  
+  .conteiner .fot_2 {
+    width: 100%;
+    background-color: #222121;
+  }
+  
+  .conteiner .fot_2 ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9f9fa0;
+    text-transform: uppercase;
+  }
+  
+  .conteiner .fot_2 ul li a:hover {
+    color: orange;
+    transition: 0.5s all;
+  }
+  
+  .conteiner .fot_2 ul {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding-top: 55px;
+  }
+  
+  .conteiner .fot_3 {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .conteiner .fot_3 a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #7b7b7b;
+    text-align: center;
+    padding-top: 50px;
+  }
